@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey100: hsl(214, 17%, 92%);
+  --Grey200: hsl(0, 0%, 81%);
+  --Grey400: hsl(224, 10%, 45%);
+  --Grey500: hsl(217, 19%, 35%);
+  --Darkblue: hsl(219, 29%, 14%);
+  --Black: hsl(0, 0%, 7%);
+
+  --Purple50: hsl(260, 100%, 95%);
+  --Purple300: hsl(264, 82%, 80%);
+  --Purple00: hsl(263, 55%, 52%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+body{
+    background: var(--Grey100);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4 ,0.2fr);
+    grid-template-rows: 260px 240px;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.daniel{
+   grid-column: 1 / 3;
+   grid-row: 1 / 2;
+   border-radius: 10px;
+   padding: 1.5rem;
+   background-color: var(--Purple00);
+}
+.pic01{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    min-width: 100%;
+    height: auto;
+}
+.pic01 img{
+    width: 2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(264, 82%, 80%) ;
+}
+.pic-info01{
+    display: flex;
+    flex-direction: column;
+}
+.pic-info01 p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--Purple300);
+}
+.pic-info01 small{
+    font-size: 0.6rem;
+    color: var(--Purple300);
+}
+.clifford{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.clifford h3{
+    color: var(--Purple50);
+    font-weight: 600;
+}
+.clifford p{
+    color: var(--Purple300);
+    font-size: 13px;
+
+}
+.jonathan{
+   grid-column: 3 / 4;
+   grid-row: 1 / 2;
+   border-radius: 10px;
+   padding: 1.5rem;
+   background-color: var(--Grey500);
+}
+.pic02{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 100%;
+    height: auto;
+}
+.pic02 img{
+    width: 2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%) ;
+}
+.pic-info02{
+    display: flex;
+    flex-direction: column;
+}
+.pic-info02 p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--Grey100);
+}
+.pic-info02 small{
+    font-size: 0.6rem;
+    color: var(--Grey200);
+}
+.walters{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.walters h3{
+    color: var(--Purple50);
+    font-weight: 600;
+}
+.walters p{
+    color: var(--Grey200);
+    font-size: 13px;
+
+}
+
+.kira{
+   grid-column:  4 / 5;
+   grid-row: 1 / 3;
+   border-radius: 10px;
+   padding: 1.5rem;
+   background-color: var(--White);
+}
+.pic03{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 100%;
+    height: auto;
+}
+.pic03 img{
+    width: 2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%) ;
+}
+.pic-info03{
+    display: flex;
+    flex-direction: column;
+}
+.pic-info03 p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--Darkblue);
+}
+.pic-info03 small{
+    font-size: 0.6rem;
+    color: var(--Grey400);
+}
+.whittle{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.whittle h3{
+    color: var(--Grey500);
+    font-weight: 600;
+}
+.whittle p{
+    color: var(--Grey400);
+    font-size: 13px;
+}
+.jeanette{
+   grid-column:  1 / 2;
+   grid-row: 2 / 3;
+   border-radius: 10px;
+   padding: 1.5rem;
+   background-color: var(--White);
+}
+.pic04{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 100%;
+    height: auto;
+}
+.pic04 img{
+    width: 2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%) ;
+}
+.pic-info04{
+    display: flex;
+    flex-direction: column;
+}
+.pic-info04 p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--Darkblue);
+}
+.pic-info04 small{
+    font-size: 0.6rem;
+    color: var(--Grey400);
+}
+.harmon{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.harmon h3{
+    color: var(--Grey500);
+    font-weight: 600;
+}
+.harmon p{
+    color: var(--Grey400);
+    font-size: 13px;
+}
+.patrick{
+   grid-column: 2 / 4;
+   grid-row: 2 / 3;
+   border-radius: 10px;
+   padding: 1.5rem;
+   background-color: var(--Darkblue);
+}
+.pic05{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 100%;
+    height: auto;
+}
+.pic05 img{
+    width: 2rem;
+    border-radius: 50%;
+    border: 2px solid hsl(263, 55%, 52%) ;
+}
+.pic-info05{
+    display: flex;
+    flex-direction: column;
+}
+.pic-info05 p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--Grey100);
+}
+.pic-info05 small{
+    font-size: 0.6rem;
+    color: var(--Grey200);
+}
+.abrams{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.abrams h3{
+    color: var(--Grey100);
+    font-weight: 600;
+}
+.abrams p{
+    color: var(--Grey200);
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 1.5rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1.5rem;
+  }
+
+  .daniel,
+  .jonathan,
+  .kira,
+  .jeanette,
+  .patrick {
+    grid-column: 1 / 2 !important;
+    grid-row: auto !important;
+  }
+
+  .clifford,
+  .walters,
+  .whittle,
+  .harmon,
+  .abrams {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
